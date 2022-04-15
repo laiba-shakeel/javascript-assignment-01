@@ -436,3 +436,9 @@
 // document.write(message);
 
 // ----------------------------------------------------------
+
+// QNO 1
+//  var x = 1
+//  var y = 2
+//  var z = (x + y) * 2;
+//  document.write( "The result is =" + z);
