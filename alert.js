@@ -435,10 +435,80 @@
 // var message = (" You will need " + totalNeeded +" "+ snacks + " to last you until the ripe old age of " + max_age );
 // document.write(message);
 
-// ----------------------------------------------------------
+// ---------------------------------------------------------
 
-// QNO 1
-//  var x = 1
-//  var y = 2
-//  var z = (x + y) * 2;
-//  document.write( "The result is =" + z);
+
+// CHAPTER NUM ## 06 TO 9 
+
+// TOPIC # 6 TO 9  ALL IN ONE 
+
+// Qno ## 1 
+
+// var a = 10;
+
+// document.write("The value of ++ a is: ", ++a + "</br>");
+// document.write("Now the value of a is: ",  a + "</br>" + "</br>" + "</br>");
+
+// document.write("The value of a++ is: ", a++ + "</br>");
+// document.write("Now the value of a is: ", a + "</br>" + "</br>" + "</br>");
+
+// document.write("The value of --a is: ", --a + "</br>");
+// document.write("Now the value of a is: ", a + "</br>" + "</br>" + "</br>");
+
+// document.write("The value of a-- is: ", a-- + "</br>");
+// document.write("Now the value of a is: ", a + "</br>" + "</br>" + "</br>");
+
+
+// Qno :02
+
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+// document.write("The result of this expression is: " + result);
+
+// ##STEPS##
+
+// --a = pre-decrement
+// --b = pre-decrement
+// ++b = pre-increment 
+// b-- = post-decrement
+
+// Qno :03 
+
+// var user_name = (prompt("Enter your name" , "your name here"));
+// alert("Welcome in this page " + user_name);
+
+// Qno : 05
+
+// var table = +prompt ("the num for multiply" , "enter here");
+// document.write( table + " " + "x" + " " + 1 + " = " + table*1 + "</br>") ;
+// document.write( table + " " + "x" + " " + 2 + " = " + table*2 + "</br>") ;
+// document.write( table + " " + "x" + " " + 3 + " = " + table*3 + "</br>") ;
+// document.write( table + " " + "x" + " " + 4 + " = " + table*4 + "</br>") ;
+// document.write( table + " " + "x" + " " + 5 + " = " + table*5 + "</br>") ;
+// document.write( table + " " + "x" + " " + 6 + " = " + table*6 + "</br>") ;
+// document.write( table + " " + "x" + " " + 7 + " = " + table*7 + "</br>") ;
+// document.write( table + " " + "x" + " " + 8 + " = " + table*8 + "</br>") ;
+// document.write( table + " " + "x" + " " + 9 + " = " + table*9 + "</br>") ;
+// document.write( table + " " + "x" + " " + 10 + " = " + table*10 + "</br>") ;
+
+// Qno : 06
+
+// var subject_1 = promt("enter your first subject name here!");
+// var subject_2 = promt("enter your second subject name here!");
+// var subject_3 = promt("enter your third subject name here!");
+
+// var total_marks = 100;
+
+// var obtained_marks1 = promt("enter obtained marks of subject1");
+// var obtained_marks2 = promt("enter obtained marks of subject2");
+// var obtained_marks3 = promt("enter obtained marks of subject3");
+
+// var percentage_1 = (obtained_marks1 / total_marks * 100 + "%");
+// var percentage_2 = (obtained_marks2 / total_marks * 100 + "%");
+// var percentage_3 = (obtained_marks3 / total_marks * 100 + "%");
+
+// Document.write ("subject" + " " + obtained_marks1 + total_marks + " " + "percentage" + "</br>");
+// Document.write ("subject" + " " + obtained_marks2 + total_marks + " " + "percentage" + "</br>");
+// Document.write ("subject" + " " + obtained_marks3 + total_marks + " " + "percentage" + "</br>");
+
