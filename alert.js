@@ -1,7 +1,7 @@
 // This is my first Chaper Code :
 
 // topic ------Alert-----
- 
+
 // Qno1: 
 
 // alert("Hello Welcome to My Website");
@@ -48,7 +48,7 @@
 //     <script>alert("This is the Head Script")</script>
 // </head>
 // <body>
-    
+
 //     <h1>laiba shakeel</h1>
 //     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 //  Facere enim vitae soluta nesciunt reprehenderit, quis nihil voluptates officia modi
@@ -71,7 +71,7 @@
 // </head>
 // <script>alert("This is Before Body tag Script");</script>
 // <body>
-    
+
 //     <h1>laiba shakeel</h1>
 //     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 //  Facere enim vitae soluta nesciunt reprehenderit, quis nihil voluptates officia modi
@@ -511,4 +511,769 @@
 // Document.write ("subject" + " " + obtained_marks1 + total_marks + " " + "percentage" + "</br>");
 // Document.write ("subject" + " " + obtained_marks2 + total_marks + " " + "percentage" + "</br>");
 // Document.write ("subject" + " " + obtained_marks3 + total_marks + " " + "percentage" + "</br>");
+
+// ------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------
+
+// Chatper 9 to 11 
+
+// Qno : 01
+
+//  var x = prompt("What is your city name?");
+//  if (x === "karachi") {
+//  alert("Welcome to the city of light !");
+//  }
+
+// Qno :02
+
+// var x = prompt("What is your gender?");
+//  if (x === "male") {
+//   alert("Good Morning Sir.");
+//   }
+//   if (x === "female") {
+//     alert("Good Morning Mam`am");
+//     }
+
+// Qno :03
+
+// var x = prompt(" Your trafic signal color is?");
+//  if (x === "red") {
+//   alert("Must Stop!");
+//   }
+//   if (x === "green") {
+//     alert("Move now!");
+//     }
+//     if (x === "yellow") {
+//       alert("Ready to move!");
+//       }
+
+// Qno :4
+
+// var x = prompt(" Remaining fuel in car ?");
+//  if (x <= "0.25litres") {
+//   alert("“Please refill the fuel in your car”");
+//   }
+//   if (x >= "0.25litres") {
+//     alert("“You can Go Now”");
+//     }
+
+// Qno :05 
+
+
+// ****a:part**** 
+
+//  var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+
+// ****b:part**** 
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// ****c:part**** 
+
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// ****d:part**** 
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// ****e:part**** 
+
+// if (true){
+//   alert("True");
+//   }
+//   if (false){
+//   alert("False");
+//   }
+
+// ****f:part**** 
+
+// if("car" < "cat"){
+//   alert("car is smaller than cat");
+//   }
+
+// Qno:06
+
+// var x1 = prompt(" enter obtained marks of subject1");
+// var x2 = prompt(" enter obtained marks of subject2");
+// var x3 = prompt(" enter obtained marks of subject3");
+// var total = (x1 + x2 + x3);
+// // var percentage = (x1 + x2 + x3 / total * 100 + "%");
+
+//  if (total >=80) {
+//   alert("Grade = A-One" , "Remarks = Excellent!");
+//   }
+//   if (total >=70) {
+//     alert("Grade = A" , "Remarks = Good!");
+//    }
+//    if (total >=60) {
+//       alert("Grade = B" , "Remarks = You need to improve!");
+//       }
+//    if (total <60) {
+//         alert("Grade = Fail" , "Remarks = Sorry!");
+//         }
+
+// Q7
+
+// STEPS
+// 01: Random number 0 to 10 DONE
+// 02: Get user input  DONE
+// 03: Compare user input to random number
+
+// var randomNumber = Math.floor(Math.random() * 11);
+// var userInput = prompt("Guess a number from 0 to 10");
+
+// if (randomNumber === parseInt(userInput)) {
+//   alert("BINGO!");
+// } else if (randomNumber === parseInt(userInput) + 1) {
+//   alert("Close enough!");
+// } else {
+//   alert("WRONG");
+// }
+
+// Q8
+
+// Steps
+// 01: Take user input
+// 02: Check if the number is divisible by 3
+// 03: Show message
+
+// var userInput = prompt("Enter a number");
+
+// if (userInput % 3 === 0) {
+//   alert("This number is divisible by 3");
+// } else {
+//   alert("This number is not divisble by 3");
+// }
+
+// Q9:
+
+// Steps:
+// 01: Take user input
+// 02: Check if the number is even or odd
+// 03: Show message
+
+// var userInput = prompt("Enter a number");
+
+// if (userInput % 2 === 0) {
+//   alert("This number is even");
+// } else {
+//   alert("This number is odd");
+// }
+
+// Q10
+
+// T > 40 then “It is too hot outside.”
+// T > 30 then “The Weather today is Normal.”
+// T > 20 then “Today’s Weather is cool.”
+// T > 10 then “OMG! Today’s weather is so Cool.”
+
+// var userInput = prompt("Enter temperature");
+
+// if (userInput > 40) {
+//   alert("It is too hot outside.");
+// } else if (userInput > 30) {
+//   alert("The Weather today is Normal.");
+// } else if (userInput > 20) {
+//   alert("Today’s Weather is cool");
+// } else if (userInput > 10) {
+//   alert("OMG! Today’s weather is so Cool.");
+// }
+
+// Q11
+
+// parse => processing
+// int => integer
+// parseInt => process it and convert it into integer
+// var firstNumber = parseInt(prompt("Enter first number"));
+// var secondNumber = parseInt(prompt("Enter second number"));
+// var operator = prompt("Enter any operator"); // "+"
+
+// if (operator === "+") {
+//   alert(firstNumber + secondNumber);
+// }
+// if (operator === "-") {
+//   alert(firstNumber - secondNumber);
+// }
+// if (operator === "*") {
+//   alert(firstNumber * secondNumber);
+// }
+// if (operator === "/") {
+//   alert(firstNumber / secondNumber);
+// }
+// if (operator === "%") {
+//   alert(firstNumber % secondNumber);
+// }
+
+// ------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------
+
+// Chatper 12 to 13
+
+// Q1
+// A=65, Z=90, a=97, z=122
+
+// var userInput = prompt("Enter something");
+
+// if (userInput.charCodeAt(0) >= 65 && userInput.charCodeAt(0) <= 90) {
+//   alert("You entered an Uppercase letter");
+// }
+
+// if (userInput.charCodeAt(0) >= 97 && userInput.charCodeAt(0) <= 122) {
+//   alert("You entered a lowercase letter");
+// }
+
+// if (!isNaN(userInput)) {
+//   alert("You entered a number");
+// }
+
+// Q2
+// STEPS: 
+// First accept two integers
+// second display the large one
+// also show if two integers are equal
+
+// var x1 = Number(prompt("Enter your first num"));
+// var x2 = Number(prompt("enter your second num"));
+// if( x1 > x2)
+// {
+//   alert("your first num is greater then your second one");
+
+// }
+// if (x2 > x1){
+//   alert("your second num is greator then your first one")
+// }
+// if( x2 === x1){
+//   alert("both are equals");
+// }
+
+
+// Q3
+// STEPS:
+// First take input a number from user
+// Second state weather the num is positive negative or zero 
+
+// var userNumber = Number(prompt("Enter your Number"));
+
+// if(userNumber === 0){
+//   alert("The number is zero")
+// }
+// if (userNumber <0){
+// alert("The number is negative")}
+// if (userNumber >0){
+//   alert("The number is positive")
+// }
+
+// Q4
+// Steps:
+// takes a character from User 
+// i.e (string length 1 )
+// returns true if vowels (a,e,i,o,u)
+// otherwise return false
+// var userChar = prompt("Enter a character");
+// if ( userChar === "a" || userChar === "e" || userChar === "i" || userChar === "u" || userChar === "o"){
+//   alert("True");}
+//   else{
+//     alert("False");
+//   }
+ 
+// Q5
+// STEPS:
+
+// var passward = "lili.shaqil"
+// var userPass = prompt("Enter your passward please gojo");
+// if (
+//   passward === userPass 
+  
+// ){
+//   alert("this is you")
+// }
+// else if(
+//   userPass === ""
+// ){
+//   alert("you write nothing")
+// }
+
+// else{
+//   alert("this is not you go please")
+// }
+
+// Q6
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18){
+// greeting = "Good day";}
+// else{
+// greeting = "Good evening";
+// }
+
+// Q7 
+
+// var userInput = Number(prompt("enter your time"));
+
+// if(
+//   userInput >= 0000 && userInput < 1200
+// ){
+//   alert("Good Morning");
+// }
+// else if (
+//   userInput >= 1200 && userInput < 1700
+// ){
+//   alert("Good Afternoon");
+// }
+// else if (
+//   userInput >= 1700 && userInput < 2100
+// ){
+//   alert("Good Eveneing");
+// }
+// else if (
+//   userInput >=2100 && userInput <=2359
+// ){
+//   alert("Good Night");
+// }
+
+// -------------------------------------------------------------------------------------------
+
+// Chapsssss Number 
+
+// chap 14 to 16
+// var array = [];
+// console.log(array);
+//   Task #2
+
+// var array = new array();
+// console.log(array);
+    // Task #3
+
+// var stringArray = ["Apple","Mango","Orange"];
+// document.write(stringArray);
+
+//             //    Task #4
+
+//     var numberArray ;
+//     numberArray = [01,11,22,33,44,55,66,77,88];
+//     document.write(numberArray);
+
+//                 //    Task #5
+
+//     var boolenArray;
+//     boolenArray = ["yes","No","True", "False"];
+
+//                     //   Task #6
+//     var mixedArray;
+//     mixedArray=["White" ,"black", 12345 , "hey",];
+
+
+//   Task #7
+
+// var education = [" SSC","HSC","BCS","BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.write("<h1>Qualifications:</h1>" )
+// document.write("1)"+ " "+ education[0] + "<br>");
+// document.write("2)"+ " "+ education[1] + "<br>");
+// document.write("3)"+ " "+ education[2] + "<br>");
+// document.write("4)"+ " "+ education[3] + "<br>");
+// document.write("5)"+ " "+ education[4] + "<br>");
+// document.write("6)"+ " "+ education[5] + "<br>");
+// document.write("7)"+ " "+ education[6] + "<br>");
+// document.write("8)"+ " "+ education[7] + "<br>");
+
+// Task # 08
+
+// var student = ["Joy", "Tina", "Rocky"]
+
+// for (var i = 0; i < student.length; i++) {
+//     var studentMarks = [320, 420, 470]
+//     for (var j = 0; j < studentMarks.length; j++) {
+//         var percentage = studentMarks[i] * 100 / 500
+//     }
+//     document.write("Score of " + student[i] + " is " + studentMarks[i] + ". Percentage Is " + percentage + "% <br>")
+// }
+
+//    Task # 10  
+
+// var score = [320, 230, 420, 180]
+// document.write("Score of Students: " + score + "<br>")
+// var ascending = score.sort()
+// document.write("Ordered Score of students: " + ascending)
+
+    // Task # 11
+
+
+// var citiesList = ["Karachi", "Lahore", "Peshawar", "Quetta"]
+// document.write("Cities list: " + citiesList + "<br>")
+// var selectedCities = [citiesList[1] + " and " + citiesList[2]]
+// document.write("Selected Cities: " + selectedCities)
+
+//      Task #12
+
+//     var arr =  ["This", " is", " my ", " cat"];
+//     document.write("Array :" + "<br>" + arr + "<br>" +"<br>");
+//     arr1 = arr.join(" ");
+//     document.write("String:" + "<br>" + arr1)
+
+    // Task #13
+
+//     var array = ["keyboard" , "mouse", "printer", "monitor"];
+//     document.write("Devices: " + "<br>" + array + "<br>");
+//     for (var i =0; i<array.length ; i++){
+//       document.write("<br>Out" + "<br>" + array.shift(array[i]) + "<br>" + "<br>");
+//       array.length = array.length +1;
+//     }
+
+//      Task #14
+
+
+//     var array = ["keyboard" , "mouse", "printer", "monitor"];
+//     document.write("Devices: " + "<br>" + array + "<br>");
+//     for (var  i=array.length ; i>0;  i--){
+//       document.write("<br>" +"Out" + "<br>" + array.pop(array[i]) + "<br>" + "<br>");
+//     }
+
+
+// chap 17 to 20
+
+// Q1
+// var multArr = [[1,1],[2,2],[3,3],[4,4]]
+// console.table(multArr)
+
+// Q2
+// var multArr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// for(i=0;i<multArr.length;i++){
+//     document.write('<br>')
+//     for(j=0;j<4;j++)
+//        { x=multArr[i];
+//            document.write(x[j])}
+//     }
+
+// Q3
+// for(i=1;i<11;i++){
+//     document.write(i+'<br>')
+// }
+
+// Q4
+// userInp=+prompt('Enter a number to show its multiplication table')
+// userLen=+prompt('Enter Length')
+// document.write('Multiplication of Table '+userInp+' of Length '+userLen+'<br>')
+// for(i=1;i<=userLen;i++){
+//     document.write(userInp+' x '+ i + ' = '+userInp*i+'<br>')
+// } 
+
+// Q5
+// fruits = ['apple','banana','mango','orange','strwaberry']
+// for(i=0;i<fruits.length;i++){
+//     document.write('<br>'+fruits[i])
+// }
+// for(i=0;i<fruits.length;i++){
+//     document.write('<br> Element at index '+i+' is ' +fruits[i])
+// }
+
+// Q6
+// document.write('Counting:<br><br>')
+// for(i=1;i<=15;i++){
+//     document.write(i+',')
+// }
+
+// document.write('<br><br> Reverse Counting:<br><br>')
+// for(i=10;i>=1;i--){
+//     document.write(i+',')
+// }
+
+// document.write('<br><br>Even:<br><br>')
+// for(i=0;i<=20;i++){
+//     if(i%2==0){
+//     document.write(i+',')
+//     }
+// }
+
+// document.write('<br><br>Odd:<br><br>')
+// for(i=0;i<=20;i++){
+//     if(i%2!=0){
+//     document.write(i+',')
+//     }
+// }
+
+// document.write('<br><br>Series:<br><br>')
+// for(i=1;i<=20;i++){
+//     if(i%2==0){
+//     document.write(i+'k, ')
+//     }
+// }
+
+// Q7
+// A=['cake','apple pie','cookie','chips','patties']
+// var userInp=prompt('Welcome to ABC Bakery. What do you want to order Sir/Ma\'am?')
+// for(i=0;i<5;i++){
+//     console.log('<br>i'+i)
+//    console.log('<br>A[i] '+A[i])
+//     console.log('<br>userInp '+userInp)
+//     if(userInp===A[i])
+//     {
+//         alert(userInp +' is available at index '+i+' in our bakery.')
+//         flag=false;
+//         break; 
+//     }
+//     else if (userInp!==A[i]){
+//         var flag=true;
+//        }
+    
+// } 
+// if(flag==true){
+//     alert('We are sorry. '+userInp+' isn\'t available in our bakery')
+// }
+
+// Q8
+// A=[24,53,78,91,12]
+// largest=0
+// for (i=0; i<=largest;i++){
+//     if (A[i]>largest) {
+//         var largest=A[i];
+//     }
+// }
+// document.write('Array Items: '+ A)
+// document.write('<br>The Largest Number is: '+largest)
+
+// // Q9
+// A=[24,53,78,91,12]
+// var smallest =A[0]
+// for (i=0; i<=smallest;i++){
+//     if (A[i]<smallest) {
+//         var smallest=A[i];
+//     }
+// }
+// document.write('Array Items: '+ A)
+// document.write('<br>The Smallest Number is: '+smallest)
+
+// Q10
+// for(i=1; i<=100;i++){
+//     if(i%5==0){
+//         document.write(i+', ')
+//     }
+// }
+
+// ----------------------------------------------------
+
+// chap 21 to 25
+
+
+// Task #1
+// var fName  = prompt("Enter your first name");
+// var lName  = prompt("Enter your last name");
+// var fullName= fName + lName;
+// alert("Welcome " + "" +fullName +" " + "to this site"); 
+
+// Task#2
+//   var fPhone = prompt("Enter your favourite mobile model");
+//   var phoneLength = fPhone.length;
+//   document.write("My favourite Phone is:" + " " + fPhone + "<br>");
+//   document.write("Length of string :" + " " + phoneLength);
+
+
+// Task#3
+//   var word ="Pakistan";
+//   var wordIndex = word.indexOf('n');
+//   document.write("String:" + " " + word + "<br>");
+//   document.write("Index of 'n':" + " " + wordIndex);
+
+// Task#4
+//   var word ="Hello World";
+//   var wordLastIndex = word.lastIndexOf('l');
+//   document.write("String:" + " " + word + "<br>");
+//   document.write("Last Index Of 'l':" + " " + wordLastIndex);
+
+// Task#5
+// var word = "Pakistani";
+// var wordIndex = word.charAt('3');
+// document.write("String:" + " " + word + "<br>");
+// document.write("Character at index 3 is:" + " " + wordIndex);
+
+// Task#6
+// var firstName = prompt("Enter First Name");
+// var lastName = prompt("Enter Last Name");
+// var fullName = firstName.concat(" " + lastName);
+// alert("Welcome to our website" + " " + fullName);
+
+// Task#7
+//   var city = " Hyderabad";
+//   var replace = city.replace('Hyder', 'Islam');
+//   document.write("City:" + " " + city + "<br>");
+//   document.write("After replacement:" + " " + replace);
+
+// Task#8
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var newText = message.replace(/and/g, "&");
+// document.write(newText);
+
+// Task#9
+//   var string = '472';
+//   document.write("Value:" + " " + string + "<br>");
+//   document.write("Type:" + " " + typeof(string)+ "<br>");
+//   var number = Number(string);
+//   document.write("Value:"+ " " + number + "<br>");
+//   document.write("Type:" + " " + typeof(number));
+
+// Task#10
+// var word = prompt("Please type a word", "Type word here");
+// var upperCase = word.toUpperCase();
+// document.write("User input: " + word + "<br>" );
+// document.write("Upper case: " + upperCase);
+
+
+// Task#11
+
+// var word = prompt("Please type a word", "Type word here");
+// var firstChar = word.slice(0,1);
+// var otherChars = word.slice(1);
+// firstChar = firstChar.toUpperCase();
+// otherChars = otherChars.toLowerCase();
+// var titleCase = firstChar + otherChars;
+// document.write("User input: " + word);
+// document.write("<br>Title case: " + titleCase);
+
+// Task#12
+
+// var num = 35.36;
+// var convetToString = num.toString();
+// document.write("Number: " + num + "<br>");
+// var string = convetToString.replace(".","");
+// document.write("Result:" + " " + string);
+
+// Task#14
+
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var search = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
+// var convertToLower = search.toLowerCase();
+// if (bakeryItems .indexOf(convertToLower) != -1)
+// {
+//     document.write(convertToLower + " is <strong>available</strong> at index " + bakeryItems .indexOf(convertToLower) + " in our bakery");
+// }
+
+// else
+// {
+//     document.write("We are sorry " + convertToLower + " is <strong>not available</strong> in our bakery");
+// }
+
+// Task#16
+// var university = "University of Karachi";
+// var splitUni = university.split("");
+// for (var i=0;i<splitUni.length;i++)
+// {
+//     document.write("<br>" + splitUni[i]);
+// }
+
+// Task#17
+//   var input = prompt("Enter any word");
+//   var length = input.length;
+//   var index = input.charAt(length-1);
+//   document.write("User Input:" + " " + input+ "<br>");
+//   document.write("Last character of  input:" + " " + index);
+
+// Task#18
+
+// var string = "The quick brown fox jumps over the lazy dog.";
+// var stringInLowerCase = string.toLowerCase();
+// var count = (stringInLowerCase.match(/the/g)).length;
+// document.write("Text: " + string);
+// document.write("<br>There are "+count+" occurence(s) of the word 'the'");
+
+
+// chap 26 to 30
+
+// Task#1
+
+// var num = +prompt("Enter a positiver integer");
+// var roundOffValue = Math.round(num);
+// var floorValue = Math.floor(num);
+// var ceilValue = Math.ceil(num);
+// document.write("number: "+num);
+// document.write("<br>round Off value: "+roundOffValue);
+// document.write("<br>floor value: "+floorValue);
+// document.write("<br>ceil value: "+ceilValue);
+
+// Task#2
+//   var input = +prompt("Enter a negative floating point");
+//   var sign = Math.sign(input);
+//   var roundOff = Math.round(input);
+//   var floor = Math.floor(input);
+//   var ceil = Math.ceil(input);
+//   if(sign===-1){
+//     document.write("number" + " " + input + "<br>");
+//     document.write("round Off value :" + " " + roundOff + "<br>");
+//     document.write("float value:" + " " + floor  + "<br>");
+//     document.write("ceil value:" + " " + ceil);
+//   }       
+//   else{
+//     alert("Enter a negative floating point");
+//   }
+
+// Task#3
+//   var number = +prompt("Enter a number");
+//   var absoulteValue = Math.abs(number);
+//   document.write("The absolute value of" + " " + number + " "+ "is " + " " + absoulteValue);
+
+// Task#4
+//   var dice = "random dice";
+//   var random = Math.floor(Math.random()*6 + 1);
+//   document.write(dice + " " + random);
+
+// Task#5
+//   var coin= "random coin value:";
+//   var head = "Head";
+//   var tail = "Tail";
+//   var random = Math.floor(Math.random()*2 +1);
+//   if(random ===2){
+//     document.write("2"+ "<br>" + coin +" " + head);
+//   }
+//   else{
+//     document.write("1" + "<br>" + coin + " " + tail);
+//   }
+  
+// Task#6
+//   var num = "random number between 1 and 100:";
+//   var random = Math.floor (Math.random()*100 +1);
+//   document.write(num + " " + random);
+
+// Task#7
+
+// var num = prompt("Enter your weight in Kilograms");
+// var weight =  parseFloat(num);
+// var totalWeight = weight + 8.3;
+// document.write("The weight of user is " + totalWeight + " kilograms");
+
+// //Task#8
+// var guess = +prompt("Enter a number between 1 and 10");
+// var secretNumber = Math.floor(Math.random() * 10) + 1;
+// if (guess === secretNumber) 
+// {
+// alert("Well done! Correct answer");
+// }
+// if (guess !== secretNumber) 
+// {
+//     alert("Try again!");
+// }
+
 
